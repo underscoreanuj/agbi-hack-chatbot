@@ -4,7 +4,8 @@
   "scripts": {
     "lint": "eslint ./src",
     "build": "webpack",
-    "dev": "webpack-dev-server"
+    "dev": "webpack-dev-server",
+    "start": "yarn dev"
   },
   "dependencies": {
     "bootstrap": "4.5.0",
