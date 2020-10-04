@@ -6,10 +6,10 @@
     "npm": "6.14.5"
   },
   "scripts": {
+    "start": "yarn dev",
     "lint": "eslint ./src",
     "build": "webpack",
-    "dev": "webpack-dev-server",
-    "start": "yarn dev"
+    "dev": "webpack-dev-server"
   },
   "dependencies": {
     "bootstrap": "4.5.0",
