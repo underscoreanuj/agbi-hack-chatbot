@@ -7,7 +7,7 @@
     "yarn": "1.22.5"
   },
   "scripts": {
-    "start": "./node_modules/webpack-dev-server/bin/webpack-dev-server.js",
+    "start": "./node_modules/webpack/bin/webpack.js -p --progress && node server.js",
     "lint": "eslint ./src",
     "build": "webpack",
     "dev": "webpack-dev-server"
